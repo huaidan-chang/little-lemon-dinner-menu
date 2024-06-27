@@ -8,7 +8,7 @@
 import Foundation
 
 struct MenuItem: Identifiable {
-    var id: String
+    var id : String = UUID().uuidString
     var title: String
     var ingredient: [Ingredient]
 }

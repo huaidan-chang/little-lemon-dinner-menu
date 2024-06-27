@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MenuItemsView: View {
-    @StateObject private var viewModel = MenuItemsViewModel()
+    @StateObject private var viewModel = MenuViewViewModel()
     var body: some View {
         Text("hello")
         NavigationStack {

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MenuItemsOptionView: View {
-    @EnvironmentObject var viewModel: MenuItemsViewModel
+    @EnvironmentObject var viewModel: MenuViewViewModel
     var body: some View {
         NavigationStack {
             List {
