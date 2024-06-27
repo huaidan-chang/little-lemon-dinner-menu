@@ -10,10 +10,19 @@ import SwiftUI
 struct MenuItemsView: View {
     @StateObject private var viewModel = MenuViewViewModel()
     var body: some View {
-        Text("hello")
         NavigationStack {
             ScrollView {
-                Text("Food Drinks")
+                if viewModel.showFood {
+                    MenuGridView(menuCategory: .food).environmentObject(viewModel)
+                }
+                
+                if viewModel.showDrinks {
+                    MenuGridView(menuCategory: .drink).environmentObject(viewModel)
+                }
+                
+                if viewModel.showDesserts {
+                    MenuGridView(menuCategory: .dessert).environmentObject(viewModel)
+                }
             }
             .navigationTitle("Menu")
             .toolbar {
