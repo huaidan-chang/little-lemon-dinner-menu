@@ -14,6 +14,14 @@
 		77E9D1332C2AA76A005662F8 /* LittleLemonDinnerMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D1322C2AA76A005662F8 /* LittleLemonDinnerMenuTests.swift */; };
 		77E9D13D2C2AA76A005662F8 /* LittleLemonDinnerMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D13C2C2AA76A005662F8 /* LittleLemonDinnerMenuUITests.swift */; };
 		77E9D13F2C2AA76A005662F8 /* LittleLemonDinnerMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D13E2C2AA76A005662F8 /* LittleLemonDinnerMenuUITestsLaunchTests.swift */; };
+		77E9D1582C2BAC5F005662F8 /* MenuItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D1572C2BAC5F005662F8 /* MenuItemsView.swift */; };
+		77E9D15A2C2BAC6A005662F8 /* MenuItemsOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D1592C2BAC6A005662F8 /* MenuItemsOptionView.swift */; };
+		77E9D15C2C2BAC75005662F8 /* MenuItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D15B2C2BAC75005662F8 /* MenuItemDetailsView.swift */; };
+		77E9D15E2C2BD081005662F8 /* MenuCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D15D2C2BD081005662F8 /* MenuCategory.swift */; };
+		77E9D1602C2BD123005662F8 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D15F2C2BD123005662F8 /* Ingredient.swift */; };
+		77E9D16A2C2CFF1E005662F8 /* MenuItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D1692C2CFF1E005662F8 /* MenuItemsViewModel.swift */; };
+		77E9D16C2C2D0262005662F8 /* SortBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D16B2C2D0262005662F8 /* SortBy.swift */; };
+		77E9D16E2C2D0663005662F8 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D16D2C2D0663005662F8 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		77E9D1382C2AA76A005662F8 /* LittleLemonDinnerMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonDinnerMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E9D13C2C2AA76A005662F8 /* LittleLemonDinnerMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonDinnerMenuUITests.swift; sourceTree = "<group>"; };
 		77E9D13E2C2AA76A005662F8 /* LittleLemonDinnerMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonDinnerMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77E9D1572C2BAC5F005662F8 /* MenuItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsView.swift; sourceTree = "<group>"; };
+		77E9D1592C2BAC6A005662F8 /* MenuItemsOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsOptionView.swift; sourceTree = "<group>"; };
+		77E9D15B2C2BAC75005662F8 /* MenuItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsView.swift; sourceTree = "<group>"; };
+		77E9D15D2C2BD081005662F8 /* MenuCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategory.swift; sourceTree = "<group>"; };
+		77E9D15F2C2BD123005662F8 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		77E9D1692C2CFF1E005662F8 /* MenuItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsViewModel.swift; sourceTree = "<group>"; };
+		77E9D16B2C2D0262005662F8 /* SortBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortBy.swift; sourceTree = "<group>"; };
+		77E9D16D2C2D0663005662F8 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,14 @@
 				77E9D1232C2AA768005662F8 /* ContentView.swift */,
 				77E9D1252C2AA76A005662F8 /* Assets.xcassets */,
 				77E9D1272C2AA76A005662F8 /* Preview Content */,
+				77E9D1572C2BAC5F005662F8 /* MenuItemsView.swift */,
+				77E9D1592C2BAC6A005662F8 /* MenuItemsOptionView.swift */,
+				77E9D15B2C2BAC75005662F8 /* MenuItemDetailsView.swift */,
+				77E9D15D2C2BD081005662F8 /* MenuCategory.swift */,
+				77E9D15F2C2BD123005662F8 /* Ingredient.swift */,
+				77E9D1692C2CFF1E005662F8 /* MenuItemsViewModel.swift */,
+				77E9D16B2C2D0262005662F8 /* SortBy.swift */,
+				77E9D16D2C2D0663005662F8 /* MenuItem.swift */,
 			);
 			path = LittleLemonDinnerMenu;
 			sourceTree = "<group>";
@@ -258,7 +282,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E9D1242C2AA768005662F8 /* ContentView.swift in Sources */,
+				77E9D1582C2BAC5F005662F8 /* MenuItemsView.swift in Sources */,
+				77E9D1602C2BD123005662F8 /* Ingredient.swift in Sources */,
 				77E9D1222C2AA768005662F8 /* LittleLemonDinnerMenuApp.swift in Sources */,
+				77E9D15A2C2BAC6A005662F8 /* MenuItemsOptionView.swift in Sources */,
+				77E9D15E2C2BD081005662F8 /* MenuCategory.swift in Sources */,
+				77E9D16C2C2D0262005662F8 /* SortBy.swift in Sources */,
+				77E9D16A2C2CFF1E005662F8 /* MenuItemsViewModel.swift in Sources */,
+				77E9D15C2C2BAC75005662F8 /* MenuItemDetailsView.swift in Sources */,
+				77E9D16E2C2D0663005662F8 /* MenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
